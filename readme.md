@@ -16,4 +16,9 @@ Shell => All the commands are fire on shell. The shell is working because it is 
 - ``crtl + l``  => Clear the Screen
 - ``uname``     => Give the information what kind of system are you using
 - ``uname -a``  => All Details regardig information
--  ``d``
+-  ``uptime``   => show how much long your system in up 
+
+## Shell Commands
+- ``cd directory_name``    => Change Directory forward
+- ``cd..``  => Change Directory backward
+- ``cd``   => It gone directly to home directory

@@ -54,4 +54,24 @@ Shell => All the commands are fire on shell. The shell is working because it is 
 - `` history`` => It gives the history of previously used commands
     - ``history > file_name.txt`` => It redirect the history of commands into the file.
 - `` cat file_name ``   => It is allow us to read the file.
-    - ``head`` or ``tail`` => It is also allow us to read the file but only heading part (head) and footing part(tail)  
+    - ``head`` or ``tail`` => It is also allow us to read the file but only heading part (head) and footing part(tail)
+
+
+#### Permissions
+*Linux was designed to allow many users to access single system at the same time. Also fies need to be protected from each other.*
+-  PERMISSION => Basically there are three types of permission in Linux.
+    - Read
+    - Write
+    - Execute
+
+* How to read Permissions ?
+    * drwxr-xr-x    10  admin  staff 320    28 jul 23:04 admin
+        * **d** First word represent the which kind of file it is.(File[-], Directory[d])
+        * **rwx** Represent the creator permission like root,admin.
+        * **r-x** Represent the Groups permissions
+        * **r-x** Represent the User permissions.
+    * Number of the permissions:
+        * x = 4
+        * w = 2
+        * r = 1
+- ``   ``

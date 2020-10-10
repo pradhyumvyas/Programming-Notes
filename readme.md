@@ -71,7 +71,14 @@ Shell => All the commands are fire on shell. The shell is working because it is 
         * **r-x** Represent the Groups permissions
         * **r-x** Represent the User permissions.
     * Number of the permissions:
-        * x = 4
-        * w = 2
-        * r = 1
-- ``   ``
+        * x = 4 (Execute)
+        * w = 2 (Write)
+        * r = 1 (Read)
+- `` chmod 755 filename  ``
+    - 7 = 4+2+1 => Gives all permission to **Creator**
+    - 5 = 4+1 => Gives the the Execute and Read Permission to **Group**
+    - 5 = 4+1 => Gives the the Execute and Read Permission to **User** 
+
+
+
+*Many Times if we want to install some packages or softwares in our Linux based OS we need a permission of higher authority to successfully installl that things for that we use **sudo** keyword before fire actual installations commands of that package*

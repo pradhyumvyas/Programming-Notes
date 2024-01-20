@@ -1,0 +1,14 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "### Problem statement which docker is solving    1) Same environment replica       - Provide same environmet for each and every services and bind them in one container.       - To run a project in a very large scale team size it is getting very hard to setup same environment across all team member machines in different OS's also, with the help of Docker we can easily overcome this issue.       - Some services are OS specifics like some service wil run in windows machines only but we needed same in MacOS also, by the help of Docker we can acheive this also.    2) Setup environment in cloud for every instance       - It is getting very tough to setup same environment to deploy our services on cloud       - If we are using serverless then in each and every instance we have to replicate same environment       - We can solve this problem with the help of Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

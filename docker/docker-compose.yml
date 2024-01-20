@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:12.2 # https://hub.docker.com/_/postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: review
+    ports:
+      - "5432:5432"
+  
+  redis:
+    image: redis # https://hub.docker.com/_/redis
+    ports:
+      - "6379:6379"

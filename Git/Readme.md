@@ -84,6 +84,7 @@
       - ```git rebase master```
       - If found any conflicts while running rebase command, just resolve the conflicts and add in staging area after run
       - ```git rebase --continue```
+      - NEVER REBASE COMMITS THAT YOU HAVE SHARED PUSHED TO GITHUB --> NEVER REBASE
 
 
 

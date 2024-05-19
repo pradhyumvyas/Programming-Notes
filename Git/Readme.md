@@ -71,10 +71,20 @@
       - There is on more way to back changes using ```git stash apply``` it apply changes & keep then in stash
 
       **More commands**
-      - ```git chackout <Hash>``` (Detach Head): new branch
+      - ```git checkout <Hash>``` (Detach Head): new branch
       - ```git switch main``` Re-attach Head
       - ```git checkout HEAD~2``` Look at 2 commit prior
       - ```git restore filename``` get back to last commit version
       
+
+      **Git Rebase**
+      - DON't use in main branch never
+      - It should be use with side branch
+      - The unnecessary commit message like merge commit will totally gone
+      - ```git rebase master```
+      - If found any conflicts while running rebase command, just resolve the conflicts and add in staging area after run
+      - ```git rebase --continue```
+
+
 
          

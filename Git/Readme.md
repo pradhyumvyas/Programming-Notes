@@ -34,7 +34,10 @@
       - Commit tracks the previous commits as well to keep track all the previous commit, every commit had there own unique hash id to categorize unique commit.
       - **.gitignore** file
          - files which should not be tracked or some sensative info which we are not allow to expose over repo so we keep that file inside .gitignore file.
-
+      - For umCommit the changes which are not pushed use below command
+           - ```git
+             git reset --soft HEAD~1
+             ```
    
    - *Branches*
       - Its like an alternaive timeline, always are on some branch
